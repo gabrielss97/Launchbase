@@ -70,9 +70,48 @@ nav a:hover {
     animation: slidein 3s;
 } 
 
+#info ul {
+    margin:15px 0px;
+}
+
 #info ul li{
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
+    max-width: 100px;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--color-beige);
+    font-weight: bold;
+    line-height: 20px;
+}
+
+#info ul #node {
+    background-color: rgb(87, 116, 44);
+}
+
+#info ul #react {
+    background-color: rgb(80, 80, 172);
+}
+
+#info ul #react-native {
+    background-color: rgb(108, 55, 158);
+}
+
+#info .links {
+    margin-top: 20px;
+}
+
+#info .links a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--nav-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#info .links a:hover {
+    color: var(--color-coral);
+    transition: color 700ms;
 }
 
 
