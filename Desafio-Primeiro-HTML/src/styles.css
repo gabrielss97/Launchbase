@@ -76,7 +76,7 @@ nav a:hover {
 
 #info ul li{
     max-width: 100px;
-    margin: 5px auto;
+    margin: 5px 575px;
     padding: 5px;
     border-radius: 5px;
     color: var(--color-beige);
@@ -97,16 +97,17 @@ nav a:hover {
 }
 
 #info .links {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 #info .links a {
-    margin: 0 15px;
+    margin: 0 25px;
     text-decoration: none;
     font-size: 18px;
     color: var(--nav-color);
     font-weight: bold;
     cursor: pointer;
+    border-bottom: 2px solid var(--color-coral);
 }
 
 #info .links a:hover {
