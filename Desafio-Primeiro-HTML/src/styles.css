@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-  margin: 0 30px;
+  margin: 0 20px;
   text-decoration: none;
   color: var(--color-beige);
   font-size: large;
@@ -71,12 +71,12 @@ nav a:hover {
 } 
 
 #info ul {
-    margin:15px 0px;
+    margin:15px 33px 15px 15px;
 }
 
 #info ul li{
     max-width: 100px;
-    margin: 5px 575px;
+    margin: 5px auto;
     padding: 5px;
     border-radius: 5px;
     color: var(--color-beige);
@@ -96,11 +96,12 @@ nav a:hover {
     background-color: rgb(108, 55, 158);
 }
 
-#info .links {
-    margin-top: 60px;
+footer {
+    text-align: center;
+    margin:0px auto;
 }
 
-#info .links a {
+footer .links a {
     margin: 0 25px;
     text-decoration: none;
     font-size: 18px;
@@ -110,7 +111,7 @@ nav a:hover {
     border-bottom: 2px solid var(--color-coral);
 }
 
-#info .links a:hover {
+footer .links a:hover {
     color: var(--color-coral);
     transition: color 700ms;
 }
